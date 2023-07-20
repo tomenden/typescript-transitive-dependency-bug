@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "composite": true,
+      "noEmit": false,
+      "tsBuildInfoFile": ".tsbuildinfo",
+      "baseUrl": ".",
+      "paths": {
+        "backend/*.api": [
+          "../backend/*.api.ts"
+        ],
+      },
+      "outDir": "build",
+      "rootDir": "../"
+    },
+    "include": [
+      "./*.ts",
+      "../backend/**/*.api.ts",
+    ]
+  }
+  

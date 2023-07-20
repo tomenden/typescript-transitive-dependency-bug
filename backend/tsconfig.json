@@ -1,0 +1,9 @@
+{
+    "compilerOptions":
+    {
+        "emitDeclarationOnly": true,
+        "composite":true,
+        "noEmit":false,
+        "outDir":"build",
+        },
+        "include":["./*.ts", "./index.d.ts"]}
